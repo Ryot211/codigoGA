@@ -1,14 +1,11 @@
-name: "Deploy CodigoFacilito"
+name: Deploy to server
 
-on:
-  push:
-    branches: ["main"]
+on: push
 
 jobs:
-  deploy-codigofacilito:
+  first_job:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - run: echo "Hacemos pull del codigo"
-      - run: echo "Correr Migraciones"
-      - run: echo "Publicar version"
+      -name: Hola Mundo
+       run: echo"Hola mundo"
