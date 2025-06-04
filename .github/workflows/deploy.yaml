@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Hola Mundo
-        run: ls - al
+        run: ls -al
 
       
       - name: Action
