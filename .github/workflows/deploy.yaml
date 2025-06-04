@@ -18,7 +18,7 @@ jobs:
       - name: Subir artefacto 
         uses: actions/upload-artifact@v4
         with:
-          name: archiv-test
+          name: archivo-test
           path: test.log
 
   segundo_job:
