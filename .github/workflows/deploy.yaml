@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Hola Mundo
-        run: echo $GITHUB_OUTPUT
+        run: echo "my_variable=Hola mundo" >> $GITHUB_OUTPUT
 
   second_job:
     needs: first_job
